@@ -1,0 +1,67 @@
+.container-fluid{
+  display: table;
+  margin: 0 auto;
+}
+
+.card {
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  font-weight:lighter;
+  width: 480px;
+  margin: 0;
+  padding: 10px;
+}
+
+.card img{
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+}
+
+.card h1{
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+.card h2{
+  font-size: 22px;
+  margin: 10px 0 0 0;
+}
+
+.card p{
+  font-size: 15px;
+  margin: 5px 0 0 0;
+}
+
+.social a:hover{
+  text-decoration: none;
+}
+
+.details{
+  width: 95%;
+}
+
+.social{
+  margin: 15px 0 0 0;
+  font-size:20px;
+}
+
+.twitter-handle{
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+@media (max-width: 1250px){
+  .card{
+    margin: 0 0 0 50px;
+  }
+}
+
+@media (max-width: 1000px){
+  .card{
+    margin: 0;
+  }
+}
